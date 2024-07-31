@@ -1,0 +1,12 @@
+1. Los patrones Factory Method y Abstract Factory:
+Factory Method
+Definición: Es un patrón que define una interfaz para crear un objeto, pero permite que las subclases decidan qué clase instanciar.
+Abstract Factory
+Definición: Es un patrón que proporciona una interfaz para crear familias de objetos relacionados sin especificar sus clases concretas.
+
+
+2. Ventajas:
+Desacoplamiento: Separa la creación de objetos de su uso.
+Flexibilidad: Facilita la adición de nuevas clases de productos sin alterar el código existente. Solo se necesita crear una nueva subclase y ajustar el método de fábrica.
+Simplicidad: Proporciona una forma clara y sencilla de crear objetos, encapsulando la lógica de creación en un solo lugar.
+Consistencia: Asegura que los productos creados sean compatibles entre sí, ya que todos pertenecen a la misma familia.
